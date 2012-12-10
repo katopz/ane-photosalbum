@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <flex version="4.7.0" build="348201" minimumSupportedVersion="3.0.0"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="348201"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/debokeh/anes/utils/PhotosAlbum" mod="1355063693000">
+                <def id="com.debokeh.anes.utils:PhotosAlbum"/>
+                <dep id="Function" type="s"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:IOErrorEvent" type="e"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="38a5ff26efd4e477b9bfca959963dc0bb52a82d2142d03be87f28e14ac538f61"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

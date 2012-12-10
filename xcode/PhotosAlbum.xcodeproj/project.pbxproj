@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839A9CAE1674E2D100F83E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839A9CAD1674E2D100F83E53 /* Foundation.framework */; };
+		839A9CB51674E2D100F83E53 /* PhotosAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A9CB41674E2D100F83E53 /* PhotosAlbum.m */; };
+		839A9CBC1674E2F600F83E53 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839A9CBB1674E2F600F83E53 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		839A9CA81674E2D100F83E53 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		839A9CAA1674E2D100F83E53 /* libPhotosAlbum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPhotosAlbum.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A9CAD1674E2D100F83E53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		839A9CB11674E2D100F83E53 /* PhotosAlbum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotosAlbum-Prefix.pch"; sourceTree = "<group>"; };
+		839A9CB41674E2D100F83E53 /* PhotosAlbum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosAlbum.m; sourceTree = "<group>"; };
+		839A9CBB1674E2F600F83E53 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		839A9CBD1674E32900F83E53 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839A9CA71674E2D100F83E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A9CBC1674E2F600F83E53 /* AssetsLibrary.framework in Frameworks */,
+				839A9CAE1674E2D100F83E53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839A9C9F1674E2D100F83E53 = {
+			isa = PBXGroup;
+			children = (
+				839A9CAF1674E2D100F83E53 /* PhotosAlbum */,
+				839A9CAC1674E2D100F83E53 /* Frameworks */,
+				839A9CAB1674E2D100F83E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839A9CAB1674E2D100F83E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839A9CAA1674E2D100F83E53 /* libPhotosAlbum.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839A9CAC1674E2D100F83E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839A9CBB1674E2F600F83E53 /* AssetsLibrary.framework */,
+				839A9CAD1674E2D100F83E53 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839A9CAF1674E2D100F83E53 /* PhotosAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				839A9CBD1674E32900F83E53 /* FlashRuntimeExtensions.h */,
+				839A9CB41674E2D100F83E53 /* PhotosAlbum.m */,
+				839A9CB01674E2D100F83E53 /* Supporting Files */,
+			);
+			path = PhotosAlbum;
+			sourceTree = "<group>";
+		};
+		839A9CB01674E2D100F83E53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839A9CB11674E2D100F83E53 /* PhotosAlbum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839A9CA91674E2D100F83E53 /* PhotosAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A9CB81674E2D100F83E53 /* Build configuration list for PBXNativeTarget "PhotosAlbum" */;
+			buildPhases = (
+				839A9CA61674E2D100F83E53 /* Sources */,
+				839A9CA71674E2D100F83E53 /* Frameworks */,
+				839A9CA81674E2D100F83E53 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotosAlbum;
+			productName = PhotosAlbum;
+			productReference = 839A9CAA1674E2D100F83E53 /* libPhotosAlbum.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839A9CA11674E2D100F83E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Todsaporn Banjerdkit (katopz)";
+			};
+			buildConfigurationList = 839A9CA41674E2D100F83E53 /* Build configuration list for PBXProject "PhotosAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 839A9C9F1674E2D100F83E53;
+			productRefGroup = 839A9CAB1674E2D100F83E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839A9CA91674E2D100F83E53 /* PhotosAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839A9CA61674E2D100F83E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A9CB51674E2D100F83E53 /* PhotosAlbum.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		839A9CB61674E2D100F83E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		839A9CB71674E2D100F83E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839A9CB91674E2D100F83E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PhotosAlbum.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotosAlbum/PhotosAlbum-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		839A9CBA1674E2D100F83E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Volumes/exFAT/anes/ane-photosalbum/as3/bin";
+				DSTROOT = /tmp/PhotosAlbum.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotosAlbum/PhotosAlbum-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839A9CA41674E2D100F83E53 /* Build configuration list for PBXProject "PhotosAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A9CB61674E2D100F83E53 /* Debug */,
+				839A9CB71674E2D100F83E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A9CB81674E2D100F83E53 /* Build configuration list for PBXNativeTarget "PhotosAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A9CB91674E2D100F83E53 /* Debug */,
+				839A9CBA1674E2D100F83E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839A9CA11674E2D100F83E53 /* Project object */;
+}
