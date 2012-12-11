@@ -1,8 +1,8 @@
 package com.debokeh.anes.utils
 {
+	import flash.events.ErrorEvent;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
-	import flash.events.IOErrorEvent;
 	import flash.events.StatusEvent;
 	import flash.external.ExtensionContext;
 	import flash.utils.ByteArray;
@@ -23,8 +23,8 @@ package com.debokeh.anes.utils
 			
 			if(event.code == Event.COMPLETE)
 				dispatchEvent(new Event(Event.COMPLETE));
-			else if(event.code == IOErrorEvent.IO_ERROR)
-				dispatchEvent(new IOErrorEvent(IOErrorEvent.IO_ERROR));
+			else if(event.code == ErrorEvent.ERROR)
+				dispatchEvent(new ErrorEvent(ErrorEvent.ERROR));
 		}
 		
 		public function saveImage(ba:ByteArray):void

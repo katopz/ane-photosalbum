@@ -7,7 +7,7 @@ package
 	import flash.display.JPEGEncoderOptions;
 	import flash.display.Sprite;
 	import flash.events.Event;
-	import flash.events.IOErrorEvent;
+	import flash.events.ErrorEvent;
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
@@ -43,7 +43,7 @@ package
 				
 				// listen to
 				photosAlbum.addEventListener(Event.COMPLETE, onSaveImage);
-				photosAlbum.addEventListener(IOErrorEvent.IO_ERROR, onSaveImage);
+				photosAlbum.addEventListener(ErrorEvent.ERROR, onSaveImage);
 				
 				// then save!
 				photosAlbum.saveImage(ba);

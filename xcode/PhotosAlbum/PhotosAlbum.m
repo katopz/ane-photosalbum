@@ -67,7 +67,7 @@ DEFINE_ANE_FUNCTION(saveImage)
     [library writeImageDataToSavedPhotosAlbum:d metadata:nil
                               completionBlock:^(NSURL *assetURL, NSError *error){
                                   if (error != NULL) {
-                                      DISPATCH_STATUS_EVENT( context, (uint8_t*)[@"ioError" UTF8String] , nil);
+                                      DISPATCH_STATUS_EVENT( context, (uint8_t*)[@"error" UTF8String] , nil);
                                       NSLog(@"Error: %@", error);
                                   } else {
                                       DISPATCH_STATUS_EVENT( context, (uint8_t*)[@"complete" UTF8String], nil);
