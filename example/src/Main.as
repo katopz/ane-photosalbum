@@ -6,8 +6,8 @@ package
 	import flash.display.BitmapData;
 	import flash.display.JPEGEncoderOptions;
 	import flash.display.Sprite;
-	import flash.events.Event;
 	import flash.events.ErrorEvent;
+	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
@@ -32,6 +32,8 @@ package
 			stage.addEventListener(MouseEvent.CLICK, function():void
 			{
 				trace("saveToCameraRoll...");
+				
+				_tf.text = "saveToCameraRoll...";
 				
 				var ba:ByteArray = new ByteArray();
 				
