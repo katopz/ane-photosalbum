@@ -16,22 +16,26 @@ package com.debokeh.anes.utils
 			_context = ExtensionContext.createExtensionContext("com.debokeh.anes.utils.PhotosAlbum", null);
 			_context.addEventListener(StatusEvent.STATUS, onStatus);
 		}
-		
+
 		private function onStatus(event:StatusEvent):void
 		{
 			trace("event:" + event);
-			
-			if(event.code == Event.COMPLETE)
-				dispatchEvent(new Event(Event.COMPLETE));
-			else if(event.code == ErrorEvent.ERROR)
-				dispatchEvent(new ErrorEvent(ErrorEvent.ERROR));
+
+			switch(event.code) {
+				case Event.COMPLETE:
+					dispatchEvent(new Event(Event.COMPLETE));
+				break;
+				case ErrorEvent.ERROR:
+					dispatchEvent(new ErrorEvent(ErrorEvent.ERROR));
+				break;
+			}
 		}
-		
+
 		public function saveImage(ba:ByteArray):void
 		{
 			_context.call('saveImage', ba);
 		}
-		
+
 		public function dispose():void
 		{
 			if(_context)
