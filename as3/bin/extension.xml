@@ -1,6 +1,6 @@
 <extension xmlns="http://ns.adobe.com/air/extension/2.5">
   <id>com.debokeh.anes.utils.PhotosAlbum</id>
-  <versionNumber>1</versionNumber>
+  <versionNumber>2</versionNumber>
   <platforms>
     <platform name="iPhone-ARM">
             <applicationDeployment>

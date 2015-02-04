@@ -169,7 +169,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -208,7 +208,7 @@
 		839A9CBA1674E2D100F83E53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "/Volumes/exFAT/anes/ane-photosalbum/as3/bin";
+				CONFIGURATION_BUILD_DIR = ../as3/bin;
 				DSTROOT = /tmp/PhotosAlbum.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotosAlbum/PhotosAlbum-Prefix.pch";
